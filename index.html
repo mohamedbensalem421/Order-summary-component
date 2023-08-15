@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>NFT preview card component</title>
+  </head>
+  <body class="flex justify-center items-center h-screen md:bg-[url('../images/pattern-background-desktop.svg')] bg-[url('../images/pattern-background-mobile.svg')] bg-no-repeat bg-indigo-50">
+    <div class="container w-[340px] bg-white rounded-[10px] overflow-hidden">
+      <img src="./images/illustration-hero.svg" alt="">
+      <div class="p-[30px] text-center">
+        <h1 class="text-xl font-bold">Order Summary</h1>
+        <p class="text-gray-600 text-xs">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+        <div class="bg-indigo-50 p-[15px] rounded-[10px] flex items-center gap-[10px] my-[20px]">
+          <img class="" src="./images/icon-music.svg" alt="">
+          <div class="text-xs">
+            <p class="font-bold">Annual Plan</p>
+            <span class="text-gray-600">$59.99/year</span>
+          </div>
+          <a class="underline text-indigo-700 font-bold ml-auto text-xs hover:no-underline hover:text-indigo-500" href="#">Change</a>
+        </div>
+        <button class="bg-indigo-700 text-white w-full p-[10px] rounded-[10px] mb-[20px] shadow-lg shadow-indigo-300 hover:bg-indigo-500">Proceed to Payment</button>
+        <a class="text-gray-500 font-bold text-xs hover:text-gray-700" href="#">Cancel Order</a>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
